@@ -1,1 +1,17 @@
+In regards to the dataset chosen.
+The dataset used for this exercise was the records of total rainfall over the UK spanning months and years. The data was 
+originally split into the year, the twelve months and the total rainfall over that year. The data spanned from 1836 to 2023.
+The year was removed from the pool and the total rainfall was replaced by checking if it was within 150 of the average of 
+UK rainfall and titled accordingly.
+
+In regards to the use and purpose of the dataset.
+Predicting whether the rainfall will be within the average of the year. This can have multiple uses for example catching trends
+in which subsiquent years have had repeatedly higher than average rainfall or catching possible droughts early on in the year 
+to prepare.
+
 On the topic of [insert reference to research document] (Go find it again because it's starred on home comp)
+
+In regards to further exploration of the dataset.
+The original analysis of the dataset was completed using Random forest. This, however, only gave an accuracy rating of 64.91%.
+There is a possibility that this is simply due to the nature of the dataset itself as weather and therefore rainfalll are
+nutoriously hard to predict.
