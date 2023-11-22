@@ -17,4 +17,4 @@ There is a possibility that this is simply due to the nature of the dataset itse
 nutoriously hard to predict. However the confusion matrix shows that most incorrect predictions are heavily squewed towards the
 average with heavy rainfall being the worst effected with not a singe correct prediction. The speculation for this event is the
 lack of this result in the training set as it is much more common towards the end of the data set as opposed to the beginning.
-KMeans might help, also  try a different method of classification.
+after implementing the use of KMeans to cluster data the accuracy of the model increased to 87.72%., also  try a different method of classification.
