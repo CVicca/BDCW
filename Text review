@@ -12,6 +12,9 @@ to prepare.
 On the topic of [insert reference to research document] (Go find it again because it's starred on home comp)
 
 In regards to further exploration of the dataset.
-The original analysis of the dataset was completed using Random forest. This, however, only gave an accuracy rating of 64.91%.
+The original analysis of the dataset was completed using Random forest. This, however, only gave an accuracy rating of 70.18%.
 There is a possibility that this is simply due to the nature of the dataset itself as weather and therefore rainfalll are
-nutoriously hard to predict.
+nutoriously hard to predict. However the confusion matrix shows that most incorrect predictions are heavily squewed towards the
+average with heavy rainfall being the worst effected with not a singe correct prediction. The speculation for this event is the
+lack of this result in the training set as it is much more common towards the end of the data set as opposed to the beginning.
+KMeans might help, also  try a different method of classification.
