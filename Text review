@@ -24,3 +24,4 @@ does not function when used with strings and as such the label of ann (annual) w
 After implementing the use of KMeans to cluster data the accuracy of the model increased to around 87.72%.
 , also  try a different method of classification.
 double check, use SVM if possible. I think something's gone *WRONG*
+check week 7 for further details on what to do.
