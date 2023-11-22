@@ -11,10 +11,16 @@ to prepare.
 
 On the topic of [insert reference to research document] (Go find it again because it's starred on home comp)
 
-In regards to further exploration of the dataset.
-The original analysis of the dataset was completed using Random forest. This, however, only gave an accuracy rating of 70.18%.
-There is a possibility that this is simply due to the nature of the dataset itself as weather and therefore rainfalll are
-nutoriously hard to predict. However the confusion matrix shows that most incorrect predictions are heavily squewed towards the
-average with heavy rainfall being the worst effected with not a singe correct prediction. The speculation for this event is the
-lack of this result in the training set as it is much more common towards the end of the data set as opposed to the beginning.
-after implementing the use of KMeans to cluster data the accuracy of the model increased to 87.72%., also  try a different method of classification.
+In regards to exploration of the dataset.
+The original analysis of the dataset was completed using Random forest. This, however, only gave an accuracy rating of around
+70.18%. There was a possibility that this was simply due to the nature of the dataset itself as weather and therefore rainfalll are
+nutoriously hard to predict. However the confusion matrix showed that most incorrect predictions were heavily squewed towards the
+average label with heavy rainfall having been the worst effected not containing a single correct prediction. The speculation
+for this event was the lack of this result in the training set as it was much more common towards the end of the data set as
+opposed to the beginning. With this conclusion in mind the response was to find a method to cluster the data to increase the 
+likelyhood that it would be correctly trained to identify the three different types. KMeans was chosen to accomplish this but 
+does not function when used with strings and as such the label of ann (annual) was repaced with a numberical representation:
+0 for light rainfall, 1 for average rainfall and 2 for heavy rainfall. 
+After implementing the use of KMeans to cluster data the accuracy of the model increased to around 87.72%.
+, also  try a different method of classification.
+double check, use SVM if possible. I think something's gone *WRONG*
