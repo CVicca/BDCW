@@ -9,7 +9,10 @@ Predicting whether the rainfall will be within the average of the year. This can
 in which subsiquent years have had repeatedly higher than average rainfall or catching possible droughts early on in the year 
 to prepare.
 
-On the topic of [insert reference to research document] (Go find it again because it's starred on home comp)
+On the topic of other papers dealing with a related topic to the data Analysis of Weather Forecasting Techniques (https://www.researchgate.net/publication/353428752_Analysis_of_Weather_Forecasting_Techniques)
+compares and contrasts the costs and benefits of various models of predicting the weather forecast. Whist each model has a specialty
+the other factors of weather always suffer or simply cannot be predicted by the models. Weather is, as is pointed out in the article, still a very difficult topic
+to predict.
 
 In regards to exploration of the dataset.
 The original analysis of the dataset was completed using Random forest. This, however, only gave an accuracy rating of around
